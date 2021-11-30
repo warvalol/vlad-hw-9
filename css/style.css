@@ -1,0 +1,121 @@
+.wrapper {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+.center {
+  width: 320px;
+  margin: auto;
+}
+
+.background-header-main {
+  background: url(../img/mobile.jpg);
+  background-repeat: no-repeat;
+  width: 320px;
+}
+
+/* HEADER */
+.container {
+  width: 320px;
+  /*padding: 0 10px;
+  margin: auto;*/
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.main-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 20px 0 0 0;
+  margin: 0 0 125px 0;
+}
+
+.main-list-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  padding: 11px 17px 11px 17px;
+  cursor: pointer;
+}
+
+.main-list-item:not(:nth-last-child(-n + 1)) {
+  margin-right: 20px;
+}
+
+.main-list-item:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.main-list-link {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* MAIN section find-partner */
+.find-partner {
+  margin: 0 0 208px 0;
+  padding: 0;
+}
+
+.find-title {
+  text-align: center;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.find-span {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 217px;
+  /*display: block;*/
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+}
+
+.find-button {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+  background-color: #ff4e50;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  width: 280px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* main section MEET-PARTNER 
+
+B O O T S T R A P - G R I D
+
+
